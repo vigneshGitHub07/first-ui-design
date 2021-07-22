@@ -1,0 +1,13 @@
+.buttonclr{
+    background-color: rgb(243, 241, 241);
+    border: none;
+    height: 40px;
+    font-family: Gill Sans;
+}
+.userheader{
+    justify-content: space-between;
+    font-family: Gill Sans;
+}
+.userh{
+    font-weight: 700;
+}

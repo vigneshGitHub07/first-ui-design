@@ -1,0 +1,39 @@
+.sidenav{
+    background-color: rgb(173, 110, 231);
+    color: white;
+    text-align: center;
+    height: 1070px;
+    border-radius: 25px;
+}
+.logout{
+    padding-top: 190px;
+    font-size: 35px;
+}
+.icondesign{
+    font-size: 30px;
+    padding-top: 80px;
+}
+.icondesign:hover{
+    background-color: white;
+    color: blueviolet;
+
+}
+@media only screen and (min-width : 300px) and (max-device-width : 768px){
+    .sidenav{
+        background-color: rgb(173, 110, 231);
+        color: white;
+        text-align: center;
+        height: auto;
+        border-radius: 25px;
+        
+    }
+    .icondesign{
+        font-size: 15px;
+        padding: 1px;
+        padding: 9px;
+    }
+    .logout{
+        padding-top: 10px;
+        font-size: 30px;
+    }
+}

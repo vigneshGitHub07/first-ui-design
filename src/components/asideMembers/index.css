@@ -1,0 +1,32 @@
+.member{
+    background-color: white;
+    border-radius: 20px;
+    justify-content: space-between;
+    padding-top: 20px;
+
+}
+.members{
+    text-align: center;
+    justify-content: space-around !important;
+    /* margin-left: 3px !important;
+    margin-right: 3px !important; */
+}
+
+.access{
+    color: rgb(170, 169, 169);
+    font-size: 14px;
+}
+.for{
+    padding-left: 23px;
+}
+.memberrow{
+    justify-content: space-between !important;
+}
+@media only screen and (min-width : 300px) and (max-device-width : 768px){
+    .memberrow{
+        margin: 10px !important;
+    }
+    .for{
+        padding-left: 0px;
+    }
+}

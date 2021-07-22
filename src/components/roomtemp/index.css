@@ -1,0 +1,38 @@
+.roomtem{
+    justify-content: space-around;
+    color: blueviolet;
+    font-size: 19px;
+}
+
+.roomtembox{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 15px;
+    padding: 5px;
+}
+/* .forheight{
+    height: 900px;
+} */
+/* .highcharts-root{
+    /* width: 800px !important; */
+    /* height: 800px !important; */
+/* } */
+.roombtn{
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    /* margin-left: 10px; */
+    margin-right: 19px;
+    background-color: rgb(246, 246, 246);
+    border: none;
+    border-radius: 15px;
+}
+.roombtn:hover{
+    background-color: blueviolet;
+    color: white;
+}
+@media only screen and (min-width : 300px) and (max-device-width : 768px){
+    /* .roomtembox {
+     margin-left: 100px !important;
+     margin-right: 100px !important;
+    } */
+}

@@ -1,0 +1,26 @@
+.input-group-text{
+    background: none !important;
+}
+.form-control{
+    border: none !important;
+    background-color: rgb(243, 240, 240) !important;
+}
+.search{
+    background-color: rgb(243, 240, 240);
+    border-radius: 13px;
+}
+#dropdownMenuButton{
+    background: none;
+    border: none;
+    color: black;
+}
+.header{
+    justify-content: space-between;
+    font-family: monospace;
+}
+@media only screen and (min-width : 300px) and (max-device-width : 768px){
+    .header{
+        text-align: end;
+        font-family: monospace;
+    } 
+}

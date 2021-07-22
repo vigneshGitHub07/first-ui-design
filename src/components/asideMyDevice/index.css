@@ -1,0 +1,52 @@
+#dropdown-basic{
+    background-color: gainsboro;
+    color: black;
+    border: none;
+    border-radius: 10px;
+}
+.dropright{
+    background-color: gainsboro;
+    color: black;
+    border: none; 
+    border-radius: 10px;
+    height: 35px;
+    width: 35px;
+}
+.mydevice{
+    font-family: monospace;
+    justify-content: space-between;
+    font-weight: 700;
+}
+.asideBoxOne{
+    background-color: rgb(173, 110, 231);
+    border-radius: 25px;
+    margin-left: 30px;
+    color: white;
+}
+.aside{
+    justify-content: space-between;
+    margin-top: 25px !important;
+}
+.asideBoxTwo{
+    background-color: orange;
+    border-radius: 25px;
+    margin-left: 30px;
+    color: white;
+}
+.asideBoxThree{
+    background-color: rgb(245, 131, 150);
+    border-radius: 25px;
+    margin-left: 30px;
+    color: white;
+}
+.asideBoxFour{
+    background-color: skyblue;
+    border-radius: 25px;
+    margin-left: 30px;
+    color: white;
+}
+@media only screen and (min-width : 300px) and (max-device-width : 768px){
+    .aside{
+        margin: 30px !important;
+    }
+}

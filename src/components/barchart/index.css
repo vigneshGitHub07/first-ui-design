@@ -1,0 +1,9 @@
+.chartBar{
+    border-radius: 20px !important; 
+    color: blue;
+}
+@media only screen and (min-width : 300px) and (max-device-width : 768px){
+    .chartBar{
+    margin-left: 0px !important;
+    }  
+}

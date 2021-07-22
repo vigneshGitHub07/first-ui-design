@@ -1,0 +1,19 @@
+.userdetails{
+    color: rgb(251, 205, 119);
+    font-family: Gill Sans;
+}
+.degree{
+    font-size: 25px;
+}
+.grayclr{
+    color: rgb(243, 240, 240);
+}
+.usercontent{
+    padding-left: 35px !important;
+    padding-top: 30px;
+}
+@media only screen and (min-width : 300px) and (max-device-width : 768px){
+   .userdetails{
+     margin: 22px !important;
+   }
+}
